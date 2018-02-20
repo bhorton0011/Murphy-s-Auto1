@@ -1,0 +1,54 @@
+
+body { 
+    background-image: url("CarBackground2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0px 100px; 
+}
+
+ul.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: red;
+}
+ul.navigation li {
+	float: left;
+	border-right: 1px solid white;
+}
+ul.navigation li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 160px;
+	text-decoration; none;
+}
+ul.navigation li a:hover:not(.active) {background-color: green;}
+
+ul.navigation li a.active {background-color: red;}
+
+ul.Luxury {
+	font-family: Arial Black;
+	text-align: left;
+	font-size: 30px;
+	position: relative;
+	bottom: 200px;
+}
+
+ul.Hybrid {
+	font-family: Arial Black;
+	text-align: left;
+	font-size: 30px;
+	position: relative;
+	bottom: 200px;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	bottom: 0;
+}
